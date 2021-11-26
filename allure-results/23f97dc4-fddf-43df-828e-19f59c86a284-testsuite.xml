@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637928842619' stop='1637928846899'>
+    <name>US-1001 TS-001 Petstore Login TestSuite</name>
+    <title>US-1001 TS-001 Petstore Login TestSuite</title>
+    <test-cases>
+        <test-case start='1637928844276' status='passed' stop='1637928844708'>
+            <name>TC001 - Go to PetStore Application and Click SignIn</name>
+            <title>TC001 - Go to PetStore Application and Click SignIn</title>
+            <labels>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Signin - Petstore Application' source='1d3761d0-bc74-4b45-8709-acc559d7098a-attachment.png' type='image/png' size='205052'/>
+            </attachments>
+            <description type='text'>User should be able to land in PetStore Application successfully with given URL.</description>
+        </test-case>
+        <test-case start='1637928844708' status='passed' stop='1637928845170'>
+            <name>TC002 - Enter username and password</name>
+            <title>TC002 - Enter username and password</title>
+            <labels>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='After entering credentials' source='40826606-d9d3-4c1b-867d-11b9522ba14b-attachment.png' type='image/png' size='26883'/>
+            </attachments>
+            <description type='text'>User should be able to enter username and password successfully in  PetStore Application Signin Page.</description>
+        </test-case>
+        <test-case start='1637928845170' status='passed' stop='1637928846138'>
+            <name>TC003 - Login to PetStore Application</name>
+            <title>TC003 - Login to PetStore Application</title>
+            <labels>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Homepage - Petstore Application' source='b462b5e5-5b31-4edd-97ca-32b56e80bef6-attachment.png' type='image/png' size='207314'/>
+            </attachments>
+            <description type='text'>User should be able to login Petstore application successfully Signin Page.</description>
+        </test-case>
+        <test-case start='1637928846139' status='passed' stop='1637928846887'>
+            <name>TC004 - Signout the PetStore Application</name>
+            <title>TC004 - Signout the PetStore Application</title>
+            <labels>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Signout - Petstore Application' source='f30fe45a-caf2-426c-9398-411e326f3384-attachment.png' type='image/png' size='205052'/>
+            </attachments>
+            <description type='text'>User should be able to signout Petstore application successfully from Home Page.</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
